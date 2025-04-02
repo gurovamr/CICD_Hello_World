@@ -1,5 +1,3 @@
-# cicd-demo
-CICD Demo 
 # CI/CD Flask App with Docker and GitHub Actions
 
 This project is a minimal Flask web application that demonstrates a full **CI/CD pipeline** using **GitHub Actions** and **DockerHub**.
@@ -12,12 +10,12 @@ Whenever code is pushed to the `main` branch, GitHub Actions will:
 
 ---
 
-## 🔄 CI/CD Workflow
+## CI/CD Workflow
 
-### ✅ Trigger:
+### Trigger:
 Runs automatically when code is pushed to the `main` branch.
 
-### 🔧 Jobs:
+### Jobs:
 #### `build`:
 - Logs in to DockerHub
 - Builds the Docker image
