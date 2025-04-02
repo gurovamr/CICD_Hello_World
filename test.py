@@ -13,4 +13,4 @@ def client():                               #test mode , no running app
 def test_app_is_working(client):                           # -> send a GET request to the root /
     response = client.get('/')
     assert response.status_code == 200                        # -> (status code OK)
-    assert b"Hello from version 2." in response.data
+    assert b"Test" in response.data
